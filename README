@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1112
+
+This utility will invoke the external pydoc script (pydoc.py comes with the standard Python installation) and use it to retrieve relevant documentation. This information is displayed in a new Vim window just like the internal Vim help. Remaps the 'K' command to provide for easy access. For example, let's say you're editing a program that uses the 'os' module. Simply position the cursor over 'os' and hit K and a new window will appear (in Vim) with the full module documentation. As a cool side effect, the pydoc buffers are now candidates for text completion, so this script provides a quick and easy way of loading a module's identifiers into your completion list.
+
+Andre Kelpe has kindly emailed me to let me know he has a script vimscript #910 that does much the same thing. Unfortunately, it doesn't show up when you do a search for Python so I was unaware of it :-(. Apologies to Andre, but we are in discussion about possibly merging the two as they both have some cool features.
+
+EDIT
+10.25.2004 (mention the other pydoc script)
